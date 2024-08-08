@@ -1,14 +1,37 @@
+*{
+  overflow-x: hidden;
+}
 .home {
-  background-color: #f0f8ff;
+  background-color: #f4f4f4;
   color: #333;
-  padding: 20px;
-  text-align: center;
+  
 }
-
-.home h1 {
-  font-size: 2.5em;
+ol{
+  list-style: none;
 }
-
-.home p {
-  font-size: 1.2em;
+.header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ol{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 10px;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50% ;
+}
+.banner{
+  width: 100%;
+}
+.section{
+  height: 1000px;
 }
