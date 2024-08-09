@@ -1,7 +1,7 @@
 import React from "react";
-import "../Example.css";
+import "../Sobrenos.css";
 
-function Example() {
+function Sobrenos() {
   return (
     <div className="example">
       <h1>Exemplo de pagina</h1>
@@ -9,4 +9,4 @@ function Example() {
   );
 }
 
-export default Example;
+export default Sobrenos;
