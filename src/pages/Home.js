@@ -10,7 +10,6 @@ function Home() {
     <div className="home">
       <Header />
       <img class="banner" src={imagem}/>
-
       <section class="section">
         <h2>Pontuação Geral</h2>
         <TabelaHome />
