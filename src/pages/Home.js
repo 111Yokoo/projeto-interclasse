@@ -5,7 +5,7 @@ import TabelaHome from "../components/TabelaHome/Index";
 import DestaquesSemana from "../components/DestaquesSemana/Index";
 import Modalidades from "../components/Modalidades/Index";
 import Footer from "../components/Footer/Index";
-import imagem from "../assets/banner-home.png"
+import imagem from "../assets/banner-home.png";
 
 function Home() {
   return (
@@ -28,7 +28,7 @@ function Home() {
           <Modalidades />
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

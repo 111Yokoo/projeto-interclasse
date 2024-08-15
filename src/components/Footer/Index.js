@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Footer.css";
+import LogoSesi from "../../assets/logoSesi.png";
 
 function Footer() {
   return (
-    <Footer>
-        
-    </Footer>
+    <div class="footer">
+        <p><strong>&copy; 2024 SESI - </strong></p>
+        <img src={LogoSesi}/>
+    </div>
   );
 }
 

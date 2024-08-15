@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         <ul className="navbar-menu">
           <li className="navbar-item">
-            <a href="#home" className="navbar-link">
+            <a href="/home" className="navbar-link">
               Home
             </a>
           </li>
@@ -40,49 +40,49 @@ const Header = () => {
             </button>
             <ul className="dropdown-menu">
               <li className="dropdown-item">
-                <a href="#futsal" className="dropdown-link">
+                <a href="/futsal" className="dropdown-link">
                   Futsal
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="#handebol" className="dropdown-link">
+                <a href="/handebol" className="dropdown-link">
                   Handebol
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="#volei" className="dropdown-link">
+                <a href="/volei" className="dropdown-link">
                   Vôlei
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="#queimada" className="dropdown-link">
+                <a href="/queimada" className="dropdown-link">
                   Queimada
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="#basquete" className="dropdown-link">
+                <a href="/basquete" className="dropdown-link">
                   Basquete
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="#futmesa" className="dropdown-link">
+                <a href="/futmesa" className="dropdown-link">
                   Futmesa
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="#tenisdemesa" className="dropdown-link">
+                <a href="/tenisdemesa" className="dropdown-link">
                   Tênis de Mesa
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="#atletismo" className="dropdown-link">
+                <a href="/atletismo" className="dropdown-link">
                   Atletismo
                 </a>
               </li>
             </ul>
           </li>
           <li className="navbar-item">
-            <a href="#sobrenos" className="navbar-link">
+            <a href="/sobrenos" className="navbar-link">
               Sobre Nós
             </a>
           </li>
