@@ -24,13 +24,13 @@ const Header = () => {
       <nav className="navbar">
         <div className="navbar-brand">
           <Link to="/">
-            <img src={Logo} alt="Logo" className="logo"/>
+            <img src="" alt="Logo" className="logo"/>
           </Link>
           Jogos Escolares SESI
         </div>
         <ul className="navbar-menu">
           <li className="navbar-item">
-            <a href="/home" className="navbar-link">
+            <a href="/" className="navbar-link">
               Home
             </a>
           </li>
