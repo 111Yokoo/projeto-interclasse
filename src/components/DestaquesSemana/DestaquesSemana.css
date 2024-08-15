@@ -1,0 +1,11 @@
+.destaquesSessao{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px;
+}
+img.imgDestaque{
+    border-radius: 0px 10px 10px 0px;
+    border-left: 7px solid red;
+    width: 250px;
+}

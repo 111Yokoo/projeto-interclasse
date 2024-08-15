@@ -4,44 +4,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Estilos do Header */
 .header {
     position: fixed;
     width: 100%;
-    padding: 20px;    
+    padding: 20px;
     z-index: 1000;
     color: #f2f2f2;
     background-color: transparent;
     transition: background-color 0.3s ease;
 }
 .header.scrolled {
-    background-color: #333; 
+    background-color: #333;
+}
+.logo{
+    width: 50px;
 }
 /* Estilos para o Navbar */
 .navbar {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
 .navbar-brand {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 35px;
     color: white;
-    align-items: center;
     font-size: 24px;
 }
+
 .navbar-menu {
     list-style-type: none;
     display: flex;
     gap: 25px;
 }
+
 .navbar-item {
     position: relative;
     transition: background-color 0.5s, box-shadow 0.5s, transform 0.5s;
 }
+
 .navbar-item:hover {
     background-color: #e32636;
     box-shadow: 1px 1px firebrick,
-                2px 2px firebrick, 
+                2px 2px firebrick,
                 3px 3px firebrick,
                 4px 4px firebrick,
                 5px 5px firebrick,
@@ -49,39 +58,55 @@
                 2px 2px firebrick;
     transform: translateX(-3px);
 }
-.navbar-item-esporte{
+
+.navbar-item-esporte {
     margin-top: 4px;
 }
+
+/* Estilos dos links da Navbar */
 .navbar-link {
     color: white;
     text-decoration: none;
     padding: 10px;
     display: block;
     text-align: center;
-    width: 120px; 
+    width: 140px;
     font-size: 20px;
 }
+
+/* Estilos do Dropdown */
 .dropdown-button {
     background-color: transparent;
     color: white;
     border: none;
     cursor: pointer;
-    width: 120px; 
+    width: 140px;
     text-align: center;
 }
-.dropdown-menu {
+
+/* Oculta o menu dropdown por padrão e exibe quando hover */
+.navbar-item-esporte:hover .dropdown-menu,
+.dropdown-menu:hover {
     display: block;
+}
+
+.dropdown-menu {
+    display: none; /* Inicialmente escondido */
     position: absolute;
     background-color: #333;
-    width: 120px; 
+    width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
     list-style-type: none;
     padding: 0;
     margin: 0;
     top: 100%;
     left: 0;
 }
+
+.dropdown-item {
+    padding: 0; /* Remove padding para itens */
+}
+
 .dropdown-link {
     color: #fff;
     padding: 12px 16px;
@@ -89,6 +114,7 @@
     display: block;
     text-align: center;
 }
+
 .dropdown-link:hover {
     background-color: #e32636;
 }

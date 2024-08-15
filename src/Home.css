@@ -11,7 +11,29 @@ Home*/
 .banner{
   width: 100%;
 }
-.section{
-  height: 1000px;
+main{
+  padding: 30px;
 }
-/**********/
+.sectionTabela{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.modalidadesSessao{
+  padding: 30px;
+}
+.ouro{
+  color: gold;
+}
+.prata{
+  color: silver;
+}
+.bronze{
+  color: brown;
+}
+.primeiraSessao{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
