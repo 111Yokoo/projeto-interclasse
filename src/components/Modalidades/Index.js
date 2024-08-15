@@ -18,7 +18,7 @@ import VoleiPlayer from "../../assets/volley-ball.png"
 import BasketballPlayer from "../../assets/basketball.png"
 import AtletismoPlayer from "../../assets/athletism.png"
 import QueimadaPlayer from "../../assets/queimada.png"
-import TenisMesaPlayer from "../../assets/tenis-de-mesa.png"
+import TenisMesaPlayer from "../../assets/pingue-pongue.png"
 import FutMesaPlayer from "../../assets/futmesa.png"
 import { PrevArrow, NextArrow } from "./Arrow";
 
