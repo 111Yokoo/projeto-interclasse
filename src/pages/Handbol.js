@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header/Index";
 import Footer from "../components/Footer/Index";
-import "../Esportes.css";
+import "./pageStyles/Esportes.css";
 import Banner1 from "../assets/BannerFutsal.jpg";
 import Banner2 from "../assets/Futsal2.png";
 import Angola from "../assets/Angola.png";
