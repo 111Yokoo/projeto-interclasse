@@ -74,7 +74,7 @@ function Modalidades() {
               <h2>Futsal</h2>
             </article>
         </Link>
-        <Link to="/handbal">
+        <Link to="/handbol">
           <article className="bannerModalidade">
             <img className="imageFundo" src={HandbolImage} alt="Futsal" />
             <img className="gifImage" src={HandballPlayer} alt="Handball" />

@@ -48,8 +48,8 @@ const Header = () => {
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="/handebol" className="dropdown-link">
-                  Handebol
+                <a href="/handbol" className="dropdown-link">
+                  Handbol
                 </a>
               </li>
               <li className="dropdown-item">
