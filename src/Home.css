@@ -37,6 +37,25 @@ main{
   color: brown;
 }
 .primeiraSessao{
-  display: grid;
-  grid-template-columns: 6fr 6fr;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+@media (max-width: 852px) {
+  .primeiraSessao{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 852px) {
+  .banner{
+    width: 120%;
+    height: 400px;
+  }
+}
+@media (max-width: 655px) {
+  .banner{
+    width: 130%;
+    height: 400px;
+  }
 }

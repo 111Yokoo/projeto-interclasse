@@ -104,7 +104,7 @@
 }
 
 .dropdown-item {
-    padding: 0; /* Remove padding para itens */
+    padding: 0;
 }
 
 .dropdown-link {
@@ -118,3 +118,24 @@
 .dropdown-link:hover {
     background-color: #e32636;
 }
+
+@media (max-width: 860px) {
+    .navbar {
+        flex-direction: column;
+    }
+  }
+  @media (max-width: 500px) {
+    .navbar-link {
+        width: 100px;
+        font-size: 15px;
+    }
+    
+    /* Estilos do Dropdown */
+    .dropdown-button {
+        width: 100px;
+    }
+    .dropdown-menu {
+        width: 100px;
+        font-size: 15px;
+    }
+  }

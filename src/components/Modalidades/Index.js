@@ -33,14 +33,28 @@ const carouselSettings = {
   nextArrow: <NextArrow />, // Adiciona a flecha próxima
   responsive: [
     {
-      breakpoint: 1024, // Para telas maiores que 1024px
+      breakpoint: 1024, // Para telas menores que 1024px
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToShow: 4,
+        slidesToScroll: 2
       }
     },
     {
-      breakpoint: 600, // Para telas menores que 600px
+      breakpoint: 852, // Para telas menores que 852px
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 600, // Para telas menores que 676px
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 450, // Para telas menores que 600px
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -60,49 +74,49 @@ function Modalidades() {
               <h2>Futsal</h2>
             </article>
         </Link>
-        <Link to="/futsal">
+        <Link to="/handbal">
           <article className="bannerModalidade">
             <img className="imageFundo" src={HandbolImage} alt="Futsal" />
             <img className="gifImage" src={HandballPlayer} alt="Handball" />
             <h2>Handbal</h2>
           </article>
         </Link>
-        <Link to="/futsal">
+        <Link to="/volei">
           <article className="bannerModalidade">
             <img className="imageFundo" src={VoleiImage} alt="Futsal" />
             <img className="gifImage" src={VoleiPlayer} alt="Futsal Gif" />
             <h2>Vôlei</h2>
           </article>
         </Link>
-        <Link to="/futsal">
+        <Link to="/basquete">
           <article className="bannerModalidade">
             <img className="imageFundo" src={BasqueteImage} alt="Futsal" />
             <img className="gifImage" src={BasketballPlayer} alt="Futsal Gif" />
             <h2>Basquete</h2>
           </article>
         </Link>
-        <Link to="/futsal">
+        <Link to="/queimada">
           <article className="bannerModalidade">
             <img className="imageFundo" src={QueimadaImage} alt="Futsal" />
             <img className="gifImage" src={QueimadaPlayer} alt="Futsal Gif" />
             <h2>Queimada</h2>
           </article>
         </Link>
-        <Link to="/futsal">
+        <Link to="/tenisdemesa">
           <article className="bannerModalidade">
             <img className="imageFundo" src={TenisMesaImage} alt="Futsal" />
             <img className="gifImage" src={TenisMesaPlayer} alt="Futsal Gif" />
             <h2>Tênis de Mesa</h2>
           </article>
         </Link>
-        <Link to="/futsal">
+        <Link to="/atletismo">
           <article className="bannerModalidade">
             <img className="imageFundo" src={AtletismoImage} alt="Futsal" />
             <img className="gifImage" src={AtletismoPlayer} alt="Futsal Gif" />
             <h2>Atletismo</h2>
           </article>
         </Link>
-        <Link to="/futsal">
+        <Link to="/futmesa">
           <article className="bannerModalidade">
             <img className="imageFundo" src={FutmesaImage} alt="Futsal" />
             <img className="gifImage" src={FutMesaPlayer} alt="Futsal Gif" />

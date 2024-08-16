@@ -9,3 +9,19 @@ img.imgDestaque{
     border-left: 7px solid red;
     width: 250px;
 }
+@media (max-width: 1080px) {
+    img.imgDestaque{
+        width: 200px;
+    }
+  }
+  @media (max-width: 1016px) {
+    img.imgDestaque{
+        width: 170px;
+    }
+  }
+  @media (max-width: 420px) {
+    img.imgDestaque{
+        width: 150px;
+    }
+  }
+ 
