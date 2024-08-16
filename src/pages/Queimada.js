@@ -252,8 +252,8 @@ function Futsal() {
                 <section className="bannerInferior">
                     <article className="imagemfooter"><img src={Futsalfoot}></img></article>
                     <article className="textFooter">
-                        <h2>O Futsal</h2>
-                        <p >O jogo de futsal no interclasse é uma competição entre turmas de uma escola, onde equipes de alunos disputam partidas seguindo as regras do futsal. O evento promove integração, espírito esportivo e diversão, além de ser uma oportunidade para os alunos demonstrarem suas habilidades e fortalecerem laços de amizade em um ambiente competitivo e saudável.</p>
+                        <h2>A Queimada</h2>
+                        <p >O jogo de queimada no interclasse é uma competição escolar onde equipes de diferentes turmas participam seguindo as regras tradicionais. O objetivo é promover integração e espírito esportivo, incentivando a cooperação e o trabalho em equipe. Realizadas em formato de torneio, as partidas oferecem um ambiente divertido e desafiador para socialização e fortalecimento de amizades.</p>
                     </article>
                 </section>
             </section>

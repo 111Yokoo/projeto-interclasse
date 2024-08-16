@@ -252,8 +252,8 @@ function Futsal() {
                 <section className="bannerInferior">
                     <article className="imagemfooter"><img src={Futsalfoot}></img></article>
                     <article className="textFooter">
-                        <h2>O Futsal</h2>
-                        <p >O jogo de futsal no interclasse é uma competição entre turmas de uma escola, onde equipes de alunos disputam partidas seguindo as regras do futsal. O evento promove integração, espírito esportivo e diversão, além de ser uma oportunidade para os alunos demonstrarem suas habilidades e fortalecerem laços de amizade em um ambiente competitivo e saudável.</p>
+                        <h2>O Basquete</h2>
+                        <p >O jogo de basquete no interclasse é uma competição entre turmas escolares que segue as regras do basquete. O evento promove integração, espírito esportivo e desenvolvimento de habilidades atléticas. As partidas, realizadas em formato de torneio, oferecem aos alunos a chance de trabalhar em equipe e fortalecer amizades em um ambiente competitivo e divertido.</p>
                     </article>
                 </section>
             </section>
