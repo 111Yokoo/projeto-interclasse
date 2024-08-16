@@ -25,18 +25,24 @@ function Futsal() {
             <section>
                 <section className="info1">
                     <img class="banner2" src={Banner2} />
-                    <article className="ProximoJogo1">
-                        <h1>Próximo Jogo</h1>
-                    </article>
-                    <article className="ProximoJogo2">
-                        <h1>sss X zzz</h1>
-                    </article>
-                    <article className="Destaque1">
-                        <h1>Jogador Destaque</h1>
-                    </article>
-                    <article className="Destaque2">
-                        <h1>Jogador1</h1>
-                    </article>
+                    <section class="infosBanner">
+                        <section>
+                            <article className="ProximoJogo1">
+                                <h1>Próximo Jogo</h1>
+                            </article>
+                            <article className="ProximoJogo2">
+                                <h1>sss X zzz</h1>
+                            </article>
+                        </section>
+                        <section>
+                            <article className="Destaque1">
+                                <h1>Jogador Destaque</h1>
+                            </article>
+                            <article className="Destaque2">
+                                <h1>Jogador1</h1>
+                            </article>
+                        </section>
+                    </section>
                 </section>
                 <section className="info2">
                 <strong><h1>Masculino</h1></strong>
@@ -108,7 +114,8 @@ function Futsal() {
                 </section>
                 <h1>SemiFinal</h1>
                 </section>
-                {/* pode colar normal COMEÇO */}
+
+                
                 <section className="SemiFinal">
                     <table className="SemiFinal1">
                         <td className="td3">
