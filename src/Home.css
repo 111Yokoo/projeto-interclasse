@@ -59,3 +59,9 @@ main{
     height: 400px;
   }
 }
+@media (max-width: 550px) {
+  .banner{
+    width: 100%;
+    height: auto;
+  }
+}

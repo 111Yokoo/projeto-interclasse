@@ -18,11 +18,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function Home() {
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768); // Ajuste o breakpoint conforme necessário
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 550); // Ajuste o breakpoint conforme necessário
 
   // Atualiza o estado com base na largura da tela
   useEffect(() => {
-    const handleResize = () => setIsSmallScreen(window.innerWidth < 768);
+    const handleResize = () => setIsSmallScreen(window.innerWidth < 550);
 
     window.addEventListener("resize", handleResize);
 
