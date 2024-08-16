@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../Home.css";
+import "./pageStyles/Home.css";
 import Header from "../components/Header/Index";
 import TabelaHome from "../components/TabelaHome/Index";
 import DestaquesSemana from "../components/DestaquesSemana/Index";

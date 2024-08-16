@@ -1,0 +1,127 @@
+main {
+    margin-top: 5px;
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+}
+.banner{
+    width: 100%;
+}
+.img{
+  height: 220px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.imgesquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+.imgdireita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.texto{
+    text-align: center;
+    width: 500px;
+    font-size: 18px;
+    text-align: justify;
+}
+.alinhamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+@media (max-width: 1150px) {
+    .texto{
+        width: 450px;
+        font-size: 16px;
+    }
+  }
+  @media (max-width: 1050px) {
+    .texto{
+        width: 400px;
+        font-size: 16px;
+    }
+  }
+  @media (max-width: 960px) {
+    .texto{
+        width: 350px;
+        font-size: 16px;
+    }
+    .img{
+        height: 190px;
+        width: 170px;
+      }
+  }
+  @media (max-width: 860px) {
+    .banner{
+        width: 100%;
+        height: 600px;
+    }
+    .texto{
+        width: 450px;
+        font-size: 16px;
+    }
+    .img{
+        height: 220px;
+        width: 200px;
+      }
+      .alinhamento {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+  }
+  @media (max-width: 810px) {
+    .banner{
+        height: 500px;
+    }
+    .texto{
+        width: 500px;
+    }
+      .alinhamento {
+        gap: 35px;
+    }
+  }
+  @media (max-width: 645px) {
+    .banner{
+        height: 450px;
+    }
+    .texto{
+        width: 500px;
+    }
+      .alinhamento {
+        gap: 35px;
+    }
+  }
+  @media (max-width: 560px) {
+    .banner{
+        height: 400px;
+    }
+    .texto{
+        width: 400px;
+    }
+      .alinhamento {
+        gap: 35px;
+    }
+  }
+  @media (max-width: 440px) {
+    .banner{
+        height: 350px;
+    }
+    .texto{
+        width: 350px;
+    }
+      .alinhamento {
+        gap: 35px;
+    }
+  }

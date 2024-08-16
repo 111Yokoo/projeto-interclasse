@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { FaHome } from "react-icons/fa";
+import { MdOutlineSportsBasketball } from "react-icons/md";
+import { MdGroups2 } from "react-icons/md";
 import Logo from "../../assets/logo.png"
 
 const Header = () => {
@@ -24,19 +27,19 @@ const Header = () => {
       <nav className="navbar">
         <div className="navbar-brand">
           <Link to="/">
-            <img src="" alt="Logo" className="logo"/>
+            <img src={Logo} alt="Logo" className="logo"/>
           </Link>
           Jogos Escolares SESI
         </div>
         <ul className="navbar-menu">
           <li className="navbar-item">
             <a href="/" className="navbar-link">
-              Home
+            <FaHome /> Home
             </a>
           </li>
           <li className="navbar-item navbar-item-esporte">
             <button className="dropdown-button navbar-link">
-              Modalidades
+            <MdOutlineSportsBasketball /> Modalidades
             </button>
             <ul className="dropdown-menu">
               <li className="dropdown-item">
@@ -83,7 +86,7 @@ const Header = () => {
           </li>
           <li className="navbar-item">
             <a href="/sobrenos" className="navbar-link">
-              Sobre Nós
+              <MdGroups2 /> Sobre Nós
             </a>
           </li>
         </ul>

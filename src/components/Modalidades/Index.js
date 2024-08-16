@@ -4,14 +4,14 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Modalidades.css";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import FutsalImage from "../../assets/futsalImage.jfif";
-import HandbolImage from "../../assets/handbolImage.jpg";
-import VoleiImage from "../../assets/futsalImage.jfif";
-import BasqueteImage from "../../assets/futsalImage.jfif";
-import QueimadaImage from "../../assets/futsalImage.jfif";
-import TenisMesaImage from "../../assets/futsalImage.jfif";
-import AtletismoImage from "../../assets/futsalImage.jfif";
-import FutmesaImage from "../../assets/futsalImage.jfif";
+import FutsalImage from "../../assets/futsal.jpeg";
+import HandbolImage from "../../assets/handbol.jpeg";
+import VoleiImage from "../../assets/volei.jpeg";
+import BasqueteImage from "../../assets/basquete.jpeg";
+import QueimadaImage from "../../assets/queimada.jpeg";
+import TenisMesaImage from "../../assets/tenisdemesa.jpeg";
+import AtletismoImage from "../../assets/atletismo.jpeg";
+import FutmesaImage from "../../assets/futmesa.jpeg";
 import FootballPlayer from "../../assets/football-field.png"
 import HandballPlayer from "../../assets/handball.png"
 import VoleiPlayer from "../../assets/volley-ball.png"
