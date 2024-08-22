@@ -23,25 +23,31 @@ function Futsal() {
 
             <div className="line"></div>
             <section>
-                <section className="info1">
+            <section className="info1">
                     <img class="banner2" src={Banner2} />
-                    <article className="ProximoJogo1">
-                        <h1>Próximo Jogo</h1>
-                    </article>
-                    <article className="ProximoJogo2">
-                        <h1>sss X zzz</h1>
-                    </article>
-                    <article className="Destaque1">
-                        <h1>Jogador Destaque</h1>
-                    </article>
-                    <article className="Destaque2">
-                        <h1>Jogador1</h1>
-                    </article>
+                    <section class="infosBanner">
+                        <section>
+                            <article className="ProximoJogo1">
+                                <h1>Próximo Jogo</h1>
+                            </article>
+                            <article className="ProximoJogo2">
+                                <h1>sss X zzz</h1>
+                            </article>
+                        </section>
+                        <section>
+                            <article className="Destaque1">
+                                <h1>Jogador Destaque</h1>
+                            </article>
+                            <article className="Destaque2">
+                                <h1>Jogador1</h1>
+                            </article>
+                        </section>
+                    </section>
                 </section>
                 <section className="info2">
-                <strong><h1>Masculino</h1></strong>
-                <section className="Tabelas">
-                        <article className="Tabela1">
+                <strong><h1  class="titulosection">Masculino</h1></strong>
+                <section className="tabelas">
+                        <article className="tabela">
                             <table>
                                 <tr>
                                     <td className="td0"><strong>Grupo 1</strong></td>
@@ -73,7 +79,7 @@ function Futsal() {
                                 </tr>
                             </table>
                         </article>
-                        <article className="Tabela2">
+                        <article className="tabela">
                             <table>
                                 <tr>
                                     <td className="td0"><strong>Grupo 2</strong></td>
@@ -106,9 +112,8 @@ function Futsal() {
                             </table>
                         </article>
                 </section>
-                <h1>SemiFinal</h1>
+                <h1  class="titulosection">SemiFinal</h1>
                 </section>
-                {/* pode colar normal COMEÇO */}
                 <section className="SemiFinal">
                     <table className="SemiFinal1">
                         <td className="td3">
@@ -134,7 +139,7 @@ function Futsal() {
                     </table>
                 </section>
                 <section className="Final">
-                    <strong><h1>Final</h1></strong>
+                    <strong><h1  class="titulosection">Final</h1></strong>
                     <article className="td4">
                         <aside className="finalista"><p>Finalista 1</p></aside>
                         <img src={XVermelho}></img>
@@ -145,9 +150,9 @@ function Futsal() {
                 {/* pode colar normal FIM */}
                 <div className="line2"></div>
                 <section className="info2">
-                    <strong><h1>Feminino</h1></strong>
-                    <section className="Tabelas">
-                        <article className="Tabela1">
+                    <strong><h1  class="titulosection">Feminino</h1></strong>
+                    <section className="tabelas">
+                        <article className="tabela">
                             <table>
                                 <tr>
                                     <td className="td0"><strong>Grupo 1</strong></td>
@@ -179,7 +184,7 @@ function Futsal() {
                                 </tr>
                             </table>
                         </article>
-                        <article className="Tabela2">
+                        <article className="tabela">
                             <table>
                                 <tr>
                                     <td className="td0"><strong>Grupo 2</strong></td>
@@ -211,8 +216,8 @@ function Futsal() {
                                 </tr>
                             </table>
                         </article>
-                    </section>
-                    <h1>SemiFinal</h1>
+                </section>
+                    <h1 class="titulosection">SemiFinal</h1>
                 </section>
                 {/* pode colar normal COMEÇO */}
                 <section className="SemiFinal">
@@ -240,7 +245,7 @@ function Futsal() {
                     </table>
                 </section>
                 <section className="Final">
-                    <strong><h1>Final</h1></strong>
+                    <strong><h1 class="titulosection">Final</h1></strong>
                     <article className="td4">
                         <aside className="finalista"><p>Finalista 1</p></aside>
                         <img src={XVermelho}></img>

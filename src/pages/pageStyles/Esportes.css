@@ -26,7 +26,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 90px;
     width: 100%;
     background-color: rgba(244, 241, 239, 0.515);
     padding: 60px;
@@ -83,28 +84,34 @@
 .info2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 60px;
-    margin: 0 auto;
+    align-items: center;
     margin-top: 15px;
-    height: 1000px;
-    width: 98%;
 }
-.info2 h1 {
+.titulosection{
     font-size: 50px;
-}
-.Tabelas {
+} 
+.tabelas {
+    flex-direction: row;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    width: 100%;
+    padding: 20px;
 }
-table {
-    width: 568px;
-    border-collapse: collapse;
+.tabela1{
+    width: 100%;
+}
+.tabela2{
+    width: 100%;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
 }
 .td0 {
-    width: 800px;
+    width: 500px;
     height: 110px;
     font-size: 40px;
     border: 3px solid rgb(85, 84, 84);
@@ -113,7 +120,6 @@ table {
     text-align: center;
 }
 .td1 {
-    width: 800px;
     height: 110px;
     border: 3px solid rgb(85, 84, 84);
     background-color: #eeeeee;
@@ -122,7 +128,6 @@ table {
     font-size: 24px;
 }
 .td2 {
-    width: 800px;
     height: 110px;
     border: 3px solid rgb(84, 84, 84);
     background-color: white;
@@ -131,7 +136,6 @@ table {
     font-size: 24px;
 }
 .td3 {
-    width: 1300px;
     height: 350px;
     border: 3px solid rgb(84, 84, 84);
     background-color: #eeeeee;
@@ -143,10 +147,8 @@ table {
     align-items: center;
     justify-content: center;
     height: 400px;
-    width: 1500px;
 }
 .SemiFinal1 {
-    width: 1300px;
     border-collapse: collapse;
 }
 .SemiFinal2 {
@@ -155,8 +157,7 @@ table {
     align-items: center;
 }
 .SemiFinal2 p {
-    height: 50px;
-    width: 143px;
+    padding: 10px;
     font-size: 20px;
     border: 3px solid rgb(84, 84, 84);
     border-radius: 10px;
@@ -167,18 +168,13 @@ table {
     justify-content: center;
     flex-direction: column;
     height: 600px;
-    width: 1500px;
     margin-top: -80px;
 }
 .Final1 {
-    width: 1300px;
     border-collapse: collapse;
 }
-.Final h1 {
-    font-size: 50px;
-}
 .td4 {
-    width: 1300px;
+    width: 90%;
     height: 100px;
     border: 3px solid rgb(84, 84, 84);
     background-color: #eeeeee;
@@ -187,11 +183,9 @@ table {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .finalista {
-    margin-left: 200px;
-    margin-right: 200px;
     font-size: 30px;
 }
 .bannerInferior {
@@ -224,3 +218,275 @@ table {
 .xVermelho{
     width: 60px;
 }
+@media (max-width: 1490px) {
+    .info1 {
+        padding: 30px;
+    }
+    .banner2 {
+        height: 700px;
+        width: 700px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 1330px) {
+    .info1 {
+        padding: 30px;
+    }
+    .banner2 {
+        height: 600px;
+        width: 600px;
+    }
+    
+.ProximoJogo1 {
+    width: 400px;
+}
+.ProximoJogo1 h1 {
+    font-size: 40px;
+}
+.ProximoJogo2 {
+    height: 209px;
+    width: 400px;
+}
+.ProximoJogo2 h1 {
+    font-size: 45px;
+}
+.Destaque1 {
+    width: 400px;
+}
+.Destaque1 h1 {
+    font-size: 40px;
+}
+.Destaque2 {
+    height: 209px;
+    width: 400px;
+}
+.Destaque2 h1 {
+    font-size: 45px;
+}
+.imagemfooter img {
+    width: 800px;
+}
+}
+@media (max-width: 1250px) {            
+.imagemfooter img {
+    width: 600px;
+}
+}
+  @media (max-width: 1050px) {            
+    .info1 {
+        padding: 30px;
+    }
+    .banner2 {
+        height: 500px;
+        width: 500px;
+    }
+    
+.ProximoJogo1 {
+    width: 300px;
+}
+.ProximoJogo1 h1 {
+    font-size: 30px;
+}
+.ProximoJogo2 {
+    height: 150px;
+    width: 300px;
+}
+.ProximoJogo2 h1 {
+    font-size: 30px;
+}
+.Destaque1 {
+    width: 300px;
+}
+.Destaque1 h1 {
+    font-size: 30px;
+}
+.Destaque2 {
+    height: 150px;
+    width: 300px;
+}
+.Destaque2 h1 {
+    font-size: 30px;
+}
+.imagemfooter img {
+    display: none;
+}
+.textFooter p{
+    font-size: 18px;
+}
+}
+@media (max-width: 900px) {            
+  .info1 {
+      padding: 30px;
+  }
+  .banner2 {
+      height: 400px;
+      width: 400px;
+  }
+  
+.ProximoJogo1 {
+  width: 250px;
+}
+.ProximoJogo1 h1 {
+  font-size: 30px;
+}
+.ProximoJogo2 {
+  height: 150px;
+  width: 250px;
+}
+.ProximoJogo2 h1 {
+  font-size: 30px;
+}
+.Destaque1 {
+  width: 250px;
+}
+.Destaque1 h1 {
+  font-size: 25px;
+}
+.Destaque2 {
+  height: 150px;
+  width: 250px;
+}
+.Destaque2 h1 {
+  font-size: 30px;
+}
+.imagemfooter img {
+  display: none;
+}
+.textFooter p{
+  font-size: 18px;
+}
+
+.td0 {
+    height: 70px;
+    font-size: 25px;
+}
+.td1 {
+    height: 70px;   
+    font-size: 20px;
+}
+.td2 {
+    height: 70px;
+    font-size: 20px;
+}
+.td1 img{
+    width: 50px;
+}
+.td2 img{
+    width: 50px;
+}
+}
+
+@media (max-width: 690px) {            
+    .info1 {
+        padding: 30px;
+    }
+    .banner2 {
+        height: 300px;
+        width: 300px;
+    }
+    .info1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        width: 100%;
+        background-color: rgba(244, 241, 239, 0.515);
+        padding: 30px;
+    }
+    
+  .ProximoJogo1 {
+    width: 180px;
+  }
+  .ProximoJogo1 h1 {
+    font-size: 20px;
+  }
+  .ProximoJogo2 {
+    height: 100px;
+    width: 180px;
+  }
+  .ProximoJogo2 h1 {
+    font-size: 20px;
+  }
+  .Destaque1 {
+    width: 180px;
+  }
+  .Destaque1 h1 {
+    font-size: 20px;
+  }
+  .Destaque2 {
+    height: 100px;
+    width: 180px;
+  }
+  .Destaque2 h1 {
+    font-size: 20px;
+  }
+  .imagemfooter img {
+    display: none;
+  }
+  .textFooter p{
+    font-size: 18px;
+  }
+  
+  .td0 {
+      height: 70px;
+      font-size: 25px;
+  }
+  .td1 {
+      height: 70px;   
+      font-size: 20px;
+  }
+  .td2 {
+      height: 70px;
+      font-size: 20px;
+  }
+  .td1 img{
+      width: 50px;
+  }
+  .td2 img{
+      width: 50px;
+  }
+  .tabelas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+.titulosection{
+    font-size: 30px;
+}
+  }
+  
+@media (max-width: 900px) {            
+    .info1 {
+        padding: 15px;
+    }
+    .banner2 {
+        display: none;
+    } 
+  .ProximoJogo1 {
+    width: 300px;
+  }
+  .ProximoJogo1 h1 {
+    font-size: 30px;
+  }
+  .ProximoJogo2 {
+    height: 150px;
+    width: 300px;
+  }
+  .ProximoJogo2 h1 {
+    font-size: 30px;
+  }
+  .Destaque1 {
+    width: 300px;
+  }
+  .Destaque1 h1 {
+    font-size: 25px;
+  }
+  .Destaque2 {
+    height: 150px;
+    width: 300px;
+  }
+  }
