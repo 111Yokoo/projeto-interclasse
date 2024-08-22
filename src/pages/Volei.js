@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header/Index";
 import Footer from "../components/Footer/Index";
 import "./pageStyles/Esportes.css";
-import Banner1 from "../assets/BannerFutsal.jpg";
+import Banner1 from "../assets/banner-volei.png";
 import Banner2 from "../assets/Futsal2.png";
 import Angola from "../assets/Angola.png";
 import Alemanha from "../assets/Alemanha.png";
@@ -13,7 +13,7 @@ import Inglaterra from "../assets/Inglaterra.png";
 import Italia from "../assets/Italia.png";
 import RepTcheca from "../assets/RepTcheca.png";
 import XVermelho from "../assets/xVermelho.png";
-import Futsalfoot from "../assets/futfem.jpg"
+import Futsalfoot from "../assets/voleifooter.png"
 
 function Futsal() {
     return (

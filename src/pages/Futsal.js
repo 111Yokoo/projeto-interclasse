@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header/Index";
 import Footer from "../components/Footer/Index";
 import "./pageStyles/Esportes.css";
-import Banner1 from "../assets/BannerFutsal.jpg";
+import Banner1 from "../assets/banner-Futsal.png";
 import Banner2 from "../assets/Futsal2.png";
 import Angola from "../assets/Angola.png";
 import Alemanha from "../assets/Alemanha.png";
