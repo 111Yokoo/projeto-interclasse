@@ -36,7 +36,7 @@ function Futsal() {
                         </section>
                         <section>
                             <article className="Destaque1">
-                                <h1>Jogador Destaque</h1>
+                                <h1>Destaque</h1>
                             </article>
                             <article className="Destaque2">
                                 <h1>Jogador1</h1>

@@ -36,7 +36,7 @@ function Futsal() {
                         </section>
                         <section>
                             <article className="Destaque1">
-                                <h1>Jogador Destaque</h1>
+                                <h1>Destaque</h1>
                             </article>
                             <article className="Destaque2">
                                 <h1>Jogador1</h1>
@@ -46,106 +46,81 @@ function Futsal() {
                 </section>
                 <section className="info2">
                 <strong><h1  class="titulosection">Masculino</h1></strong>
-                <section className="tabelas">
                         <article className="tabela">
                             <table>
                                 <tr>
-                                    <td className="td0"><strong>Grupo 1</strong></td>
+                                    <td className="td0"><strong>Posição </strong></td>
+                                    <td className="td0"><strong>Pais</strong></td>
+                                    <td className="td0"><strong>Tempo</strong></td>
                                     <td className="td0"><strong>Pontos</strong></td>
                                 </tr>
                                 <tr>
+                                    <td className="td2">1º</td>
                                     <td className="td2">
                                         <img src={Angola}></img>
                                     </td>
                                     <td className="td2">0</td>
+                                    <td className="td2">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td1">2º</td>
                                     <td className="td1">
                                         <img src={Alemanha}></img>
                                     </td>
                                     <td className="td1">0</td>
+                                    <td className="td1">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td2">3º</td>
                                     <td className="td2">
                                         <img src={Italia}></img>
                                     </td>
                                     <td className="td2">0</td>
+                                    <td className="td2">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td1">4º</td>
                                     <td className="td1">
                                         <img src={Brasil}></img>
                                     </td>
                                     <td className="td1">0</td>
-                                </tr>
-                            </table>
-                        </article>
-                        <article className="tabela">
-                            <table>
-                                <tr>
-                                    <td className="td0"><strong>Grupo 2</strong></td>
-                                    <td className="td0"><strong>Pontos</strong></td>
+                                    <td className="td1">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td2">5º</td> 
                                     <td className="td2">
                                         <img src={RepTcheca}></img>
                                     </td>
                                     <td className="td2">0</td>
+                                    <td className="td2">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td1">6º</td>
                                     <td className="td1">
                                         <img src={Inglaterra}></img>
                                     </td>
                                     <td className="td1">0</td>
+                                    <td className="td1">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td2">7º</td>
                                     <td className="td2">
                                         <img src={Canada}></img>
                                     </td>
                                     <td className="td2">0</td>
+                                    <td className="td2">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td1">8º</td>
                                     <td className="td1">
                                         <img src={Belgica}></img>
                                     </td>
                                     <td className="td1">0</td>
+                                    <td className="td1">0</td>
                                 </tr>
                             </table>
                         </article>
-                </section>
-                <h1  class="titulosection">SemiFinal</h1>
-                </section>
-                <section className="SemiFinal">
-                    <table className="SemiFinal1">
-                        <td className="td3">
-                            <article className="SemiFinal2">
-                                <p>SemiFinal 1</p>
-                            </article>
-                            <article class="tabelaSemiFinal">
-                                <h1>1° Colocado grupo 1</h1>
-                                <img class="xVermelho" src={XVermelho}></img>
-                                <h1>2° Colocado grupo 2</h1>
-                            </article>
-                        </td>
-                        <td className="td3">
-                        <article className="SemiFinal2">
-                                <p>SemiFinal 2</p>
-                            </article>
-                            <article class="tabelaSemiFinal">
-                                <h1>1° Colocado grupo 2</h1>
-                                <img class="xVermelho" src={XVermelho}></img>
-                                <h1>2° Colocado grupo 1</h1>
-                            </article>
-                        </td>
-                    </table>
-                </section>
-                <section className="Final">
-                    <strong><h1  class="titulosection">Final</h1></strong>
-                    <article className="td4">
-                        <aside className="finalista"><p>Finalista 1</p></aside>
-                        <img src={XVermelho}></img>
-                        <aside className="finalista"><p>Finalista 2</p></aside>
-                    </article>
-
+                        
                 </section>
                 {/* pode colar normal FIM */}
                 <div className="line2"></div>
@@ -153,65 +128,75 @@ function Futsal() {
                     <strong><h1  class="titulosection">Feminino</h1></strong>
                     <section className="tabelas">
                         <article className="tabela">
-                            <table>
+                           <table>
                                 <tr>
-                                    <td className="td0"><strong>Grupo 1</strong></td>
+                                    <td className="td0"><strong>Posição </strong></td>
+                                    <td className="td0"><strong>Pais</strong></td>
+                                    <td className="td0"><strong>Tempo</strong></td>
                                     <td className="td0"><strong>Pontos</strong></td>
                                 </tr>
                                 <tr>
+                                    <td className="td2">1º</td>
                                     <td className="td2">
                                         <img src={Angola}></img>
                                     </td>
                                     <td className="td2">0</td>
+                                    <td className="td2">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td1">2º</td>
                                     <td className="td1">
                                         <img src={Alemanha}></img>
                                     </td>
                                     <td className="td1">0</td>
+                                    <td className="td1">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td2">3º</td>
                                     <td className="td2">
                                         <img src={Italia}></img>
                                     </td>
                                     <td className="td2">0</td>
+                                    <td className="td2">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td1">4º</td>
                                     <td className="td1">
                                         <img src={Brasil}></img>
                                     </td>
                                     <td className="td1">0</td>
-                                </tr>
-                            </table>
-                        </article>
-                        <article className="tabela">
-                            <table>
-                                <tr>
-                                    <td className="td0"><strong>Grupo 2</strong></td>
-                                    <td className="td0"><strong>Pontos</strong></td>
+                                    <td className="td1">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td2">5º</td> 
                                     <td className="td2">
                                         <img src={RepTcheca}></img>
                                     </td>
                                     <td className="td2">0</td>
+                                    <td className="td2">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td1">6º</td>
                                     <td className="td1">
                                         <img src={Inglaterra}></img>
                                     </td>
                                     <td className="td1">0</td>
+                                    <td className="td1">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td2">7º</td>
                                     <td className="td2">
                                         <img src={Canada}></img>
                                     </td>
                                     <td className="td2">0</td>
+                                    <td className="td2">0</td>
                                 </tr>
                                 <tr>
+                                    <td className="td1">8º</td>
                                     <td className="td1">
                                         <img src={Belgica}></img>
                                     </td>
+                                    <td className="td1">0</td>
                                     <td className="td1">0</td>
                                 </tr>
                             </table>
