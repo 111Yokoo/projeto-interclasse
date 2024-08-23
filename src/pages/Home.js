@@ -7,7 +7,7 @@ import Modalidades from "../components/Modalidades/Index";
 import Footer from "../components/Footer/Index";
 import imagemOne from "../assets/banner-home-one.png";
 import imagemTwo from "../assets/banner-home-two.png";
-import imagemTree from "../assets/banner-home-tree.png";
+import imagemTree from "../assets/banner-home-tree.png";  
 import imagemOneSmall from "../assets/banner-home-one-small.png"; // Imagem para tamanhos menores
 import imagemTwoSmall from "../assets/banner-home-two-small.png"; // Imagem para tamanhos menores
 import imagemTreeSmall from "../assets/banner-home-tree-small.png"; // Imagem para tamanhos menores
