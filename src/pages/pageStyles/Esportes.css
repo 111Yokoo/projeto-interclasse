@@ -214,7 +214,7 @@
     padding: 20px;
 }
 .imagemfooter img {
-    width: 100% 100%;
+    width: 1000px;
 }
 .tabelaSemiFinal{
     display: flex;
@@ -275,7 +275,7 @@
     width: 800px;
 }
 }
-@media (max-width: 1250px) {            
+@media (max-width: 1250px) {          
 .imagemfooter img {
     width: 600px;
 }

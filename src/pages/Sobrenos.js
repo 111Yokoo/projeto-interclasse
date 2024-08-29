@@ -82,7 +82,7 @@ function Sobrenos() {
               <img class="img" src={lara} />
               <h2>Lara Vitória</h2>
             </aside>
-            <div class="texto">Com um olhar atento para [área de interesse ou hobby], [Seu Nome] é também conhecido(a) por [alguma característica pessoal ou realização significativa]. Seus colegas e amigos frequentemente o/la descrevem como [adjetivo positivo], destacando a [qualidade específica, como empatia, criatividade, ou liderança].</div>
+            <div class="texto">No desenvolvimento deste projeto, minha principal responsabilidade como designer foi desenvolver o design das páginas de cada esporte, o que envolveu a organização das informações de forma clara e acessível, garantindo que o resultado final fosse não apenas esteticamente agradável, mas também funcional e intuitivo para o usuário.</div>
           </article>
         </section>
         <section class="alinhamento">

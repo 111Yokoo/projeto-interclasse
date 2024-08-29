@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/Header/Index";
 import Footer from "../components/Footer/Index";
 import "./pageStyles/Esportes.css";
 import Banner1 from "../assets/banner-Futsal.png";
+import Banner1Small from "../assets/banner-Futsal-Small.png";
 import Banner2 from "../assets/Futsal2.png";
 import Angola from "../assets/Angola.png";
 import Alemanha from "../assets/Alemanha.png";
@@ -16,10 +17,20 @@ import XVermelho from "../assets/xVermelho.png";
 import Futsalfoot from "../assets/futfem.jpg"
 
 function Futsal() {
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 860);
+
+    useEffect(() => {
+      const handleResize = () => setIsSmallScreen(window.innerWidth < 860);
+
+      window.addEventListener("resize", handleResize);
+
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+    const banner1 = isSmallScreen ? Banner1Small : Banner1;
     return (
         <div className="body">
             <Header />
-            <img class="banner1" src={Banner1} />
+            <img class="banner1" src={banner1} />
 
             <div className="line"></div>
             <section>

@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/Header/Index";
 import Footer from "../components/Footer/Index";
 import "./pageStyles/Esportes.css";
 import Banner1 from "../assets/banner-handbol.png";
+import Banner1Small from "../assets/banner-handbol-small.png";
 import Banner2 from "../assets/Futsal2.png";
 import Angola from "../assets/Angola.png";
 import Alemanha from "../assets/Alemanha.png";
@@ -16,10 +17,17 @@ import XVermelho from "../assets/xVermelho.png";
 import Futsalfoot from "../assets/hanfooter.png"
 
 function Futsal() {
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 860);
+    useEffect(() => {
+      const handleResize = () => setIsSmallScreen(window.innerWidth < 860);
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+    const banner1 = isSmallScreen ? Banner1Small : Banner1;
     return (
         <div className="body">
             <Header />
-            <img class="banner1" src={Banner1} />
+            <img class="banner1" src={banner1} />
 
             <div className="line"></div>
             <section>
@@ -255,7 +263,7 @@ function Futsal() {
                 </section>
                 {/* pode colar normal FIM */}
                 <section className="bannerInferior">
-                    <article className="imagemfooter"><img src={Futsalfoot}></img></article>
+                    <article className="imagemfooter handbolimage"><img src={Futsalfoot}></img></article>
                     <article className="textFooter">
                         <h2>O Handbol</h2>
                         <p>O jogo de handbol no interclasse é uma competição escolar entre equipes formadas por alunos de diferentes turmas. As partidas seguem as regras do handbol e têm como objetivo promover integração, espírito esportivo e desenvolvimento de habilidades físicas. Geralmente realizadas em formato de torneio, as partidas permitem que os alunos trabalhem em equipe, aprimorem sua coordenação e estratégia, além de fortalecerem amizades em um ambiente competitivo e agradável.</p>
