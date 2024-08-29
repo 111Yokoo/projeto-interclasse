@@ -67,62 +67,62 @@ function Modalidades() {
   return (
     <section className="modalidadesItens">
       <Slider {...carouselSettings}>
-        <Link to="/futsal">
-            <article className="bannerModalidade">
-              <img className="imageFundo" src={FutsalImage} alt="Futsal" />
-              <img className="gifImage" src={FootballPlayer} alt="Futsal Gif" />
-              <h2>Futsal</h2>
-            </article>
-        </Link>
-        <Link to="/handbol">
+        <a href="/futsal">
+          <article className="bannerModalidade">
+            <img className="imageFundo" src={FutsalImage} alt="Futsal" />
+            <img className="gifImage" src={FootballPlayer} alt="Futsal Gif" />
+            <h2>Futsal</h2>
+          </article>
+        </a>
+        <a href="/handbol">
           <article className="bannerModalidade">
             <img className="imageFundo" src={HandbolImage} alt="Futsal" />
             <img className="gifImage" src={HandballPlayer} alt="Handball" />
             <h2>Handbal</h2>
           </article>
-        </Link>
-        <Link to="/volei">
+        </a>
+        <a href="/volei">
           <article className="bannerModalidade">
             <img className="imageFundo" src={VoleiImage} alt="Futsal" />
             <img className="gifImage" src={VoleiPlayer} alt="Futsal Gif" />
             <h2>Vôlei</h2>
           </article>
-        </Link>
-        <Link to="/basquete">
+        </a>
+        <a href="/basquete">
           <article className="bannerModalidade">
             <img className="imageFundo" src={BasqueteImage} alt="Futsal" />
             <img className="gifImage" src={BasketballPlayer} alt="Futsal Gif" />
             <h2>Basquete</h2>
           </article>
-        </Link>
-        <Link to="/queimada">
+        </a>
+        <a href="/queimada">
           <article className="bannerModalidade">
             <img className="imageFundo" src={QueimadaImage} alt="Futsal" />
             <img className="gifImage" src={QueimadaPlayer} alt="Futsal Gif" />
             <h2>Queimada</h2>
           </article>
-        </Link>
-        <Link to="/tenisdemesa">
+        </a>
+        <a href="/tenisdemesa">
           <article className="bannerModalidade">
             <img className="imageFundo" src={TenisMesaImage} alt="Futsal" />
             <img className="gifImage" src={TenisMesaPlayer} alt="Futsal Gif" />
             <h2>Tênis de Mesa</h2>
           </article>
-        </Link>
-        <Link to="/atletismo">
+        </a>
+        <a href="/atletismo">
           <article className="bannerModalidade">
             <img className="imageFundo" src={AtletismoImage} alt="Futsal" />
             <img className="gifImage" src={AtletismoPlayer} alt="Futsal Gif" />
             <h2>Atletismo</h2>
           </article>
-        </Link>
-        <Link to="/futmesa">
+        </a>
+        <a href="/futmesa">
           <article className="bannerModalidade">
             <img className="imageFundo" src={FutmesaImage} alt="Futsal" />
             <img className="gifImage" src={FutMesaPlayer} alt="Futsal Gif" />
             <h2>FutMesa</h2>
           </article>
-        </Link>
+        </a>
       </Slider>
     </section>
   );

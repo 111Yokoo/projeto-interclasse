@@ -27,19 +27,19 @@ const Header = () => {
       <nav className="navbar">
         <div className="navbar-brand">
           <Link to="/">
-            <img src={Logo} alt="Logo" className="logo"/>
+            <img src={Logo} alt="Logo" className="logo" />
           </Link>
           Jogos Escolares SESI
         </div>
         <ul className="navbar-menu">
           <li className="navbar-item">
             <a href="/" className="navbar-link">
-            <FaHome /> Home
+              <FaHome /> Home
             </a>
           </li>
           <li className="navbar-item navbar-item-esporte">
             <button className="dropdown-button navbar-link">
-            <MdOutlineSportsBasketball /> Modalidades
+              <MdOutlineSportsBasketball /> Modalidades
             </button>
             <ul className="dropdown-menu">
               <li className="dropdown-item">

@@ -19,9 +19,9 @@ import Futsalfoot from "../assets/hanfooter.png"
 function Futsal() {
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 860);
     useEffect(() => {
-      const handleResize = () => setIsSmallScreen(window.innerWidth < 860);
-      window.addEventListener("resize", handleResize);
-      return () => window.removeEventListener("resize", handleResize);
+        const handleResize = () => setIsSmallScreen(window.innerWidth < 860);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
     const banner1 = isSmallScreen ? Banner1Small : Banner1;
     return (
@@ -31,7 +31,7 @@ function Futsal() {
 
             <div className="line"></div>
             <section>
-            <section className="info1">
+                <section className="info1">
                     <img class="banner2" src={Banner2} />
                     <section class="infosBanner">
                         <section>
@@ -53,112 +53,7 @@ function Futsal() {
                     </section>
                 </section>
                 <section className="info2">
-                <strong><h1  class="titulosection">Masculino</h1></strong>
-                <section className="tabelas">
-                        <article className="tabela">
-                            <table>
-                                <tr>
-                                    <td className="td0"><strong>Grupo 1</strong></td>
-                                    <td className="td0"><strong>Pontos</strong></td>
-                                </tr>
-                                <tr>
-                                    <td className="td2">
-                                        <img src={Angola}></img>
-                                    </td>
-                                    <td className="td2">0</td>
-                                </tr>
-                                <tr>
-                                    <td className="td1">
-                                        <img src={Alemanha}></img>
-                                    </td>
-                                    <td className="td1">0</td>
-                                </tr>
-                                <tr>
-                                    <td className="td2">
-                                        <img src={Italia}></img>
-                                    </td>
-                                    <td className="td2">0</td>
-                                </tr>
-                                <tr>
-                                    <td className="td1">
-                                        <img src={Brasil}></img>
-                                    </td>
-                                    <td className="td1">0</td>
-                                </tr>
-                            </table>
-                        </article>
-                        <article className="tabela">
-                            <table>
-                                <tr>
-                                    <td className="td0"><strong>Grupo 2</strong></td>
-                                    <td className="td0"><strong>Pontos</strong></td>
-                                </tr>
-                                <tr>
-                                    <td className="td2">
-                                        <img src={RepTcheca}></img>
-                                    </td>
-                                    <td className="td2">0</td>
-                                </tr>
-                                <tr>
-                                    <td className="td1">
-                                        <img src={Inglaterra}></img>
-                                    </td>
-                                    <td className="td1">0</td>
-                                </tr>
-                                <tr>
-                                    <td className="td2">
-                                        <img src={Canada}></img>
-                                    </td>
-                                    <td className="td2">0</td>
-                                </tr>
-                                <tr>
-                                    <td className="td1">
-                                        <img src={Belgica}></img>
-                                    </td>
-                                    <td className="td1">0</td>
-                                </tr>
-                            </table>
-                        </article>
-                </section>
-                <h1  class="titulosection">SemiFinal</h1>
-                </section>
-                <section className="SemiFinal">
-                    <table className="SemiFinal1">
-                        <td className="td3">
-                            <article className="SemiFinal2">
-                                <p>SemiFinal 1</p>
-                            </article>
-                            <article class="tabelaSemiFinal">
-                                <h1>1° Colocado grupo 1</h1>
-                                <img class="xVermelho" src={XVermelho}></img>
-                                <h1>2° Colocado grupo 2</h1>
-                            </article>
-                        </td>
-                        <td className="td3">
-                        <article className="SemiFinal2">
-                                <p>SemiFinal 2</p>
-                            </article>
-                            <article class="tabelaSemiFinal">
-                                <h1>1° Colocado grupo 2</h1>
-                                <img class="xVermelho" src={XVermelho}></img>
-                                <h1>2° Colocado grupo 1</h1>
-                            </article>
-                        </td>
-                    </table>
-                </section>
-                <section className="Final">
-                    <strong><h1  class="titulosection">Final</h1></strong>
-                    <article className="td4">
-                        <aside className="finalista"><p>Finalista 1</p></aside>
-                        <img src={XVermelho}></img>
-                        <aside className="finalista"><p>Finalista 2</p></aside>
-                    </article>
-
-                </section>
-                {/* pode colar normal FIM */}
-                <div className="line2"></div>
-                <section className="info2">
-                    <strong><h1  class="titulosection">Feminino</h1></strong>
+                    <strong><h1 class="titulosection">Masculino</h1></strong>
                     <section className="tabelas">
                         <article className="tabela">
                             <table>
@@ -224,7 +119,112 @@ function Futsal() {
                                 </tr>
                             </table>
                         </article>
+                    </section>
+                    <h1 class="titulosection">SemiFinal</h1>
                 </section>
+                <section className="SemiFinal">
+                    <table className="SemiFinal1">
+                        <td className="td3">
+                            <article className="SemiFinal2">
+                                <p>SemiFinal 1</p>
+                            </article>
+                            <article class="tabelaSemiFinal">
+                                <h1>1° Colocado grupo 1</h1>
+                                <img class="xVermelho" src={XVermelho}></img>
+                                <h1>2° Colocado grupo 2</h1>
+                            </article>
+                        </td>
+                        <td className="td3">
+                            <article className="SemiFinal2">
+                                <p>SemiFinal 2</p>
+                            </article>
+                            <article class="tabelaSemiFinal">
+                                <h1>1° Colocado grupo 2</h1>
+                                <img class="xVermelho" src={XVermelho}></img>
+                                <h1>2° Colocado grupo 1</h1>
+                            </article>
+                        </td>
+                    </table>
+                </section>
+                <section className="Final">
+                    <strong><h1 class="titulosection">Final</h1></strong>
+                    <article className="td4">
+                        <aside className="finalista"><p>Finalista 1</p></aside>
+                        <img src={XVermelho}></img>
+                        <aside className="finalista"><p>Finalista 2</p></aside>
+                    </article>
+
+                </section>
+                {/* pode colar normal FIM */}
+                <div className="line2"></div>
+                <section className="info2">
+                    <strong><h1 class="titulosection">Feminino</h1></strong>
+                    <section className="tabelas">
+                        <article className="tabela">
+                            <table>
+                                <tr>
+                                    <td className="td0"><strong>Grupo 1</strong></td>
+                                    <td className="td0"><strong>Pontos</strong></td>
+                                </tr>
+                                <tr>
+                                    <td className="td2">
+                                        <img src={Angola}></img>
+                                    </td>
+                                    <td className="td2">0</td>
+                                </tr>
+                                <tr>
+                                    <td className="td1">
+                                        <img src={Alemanha}></img>
+                                    </td>
+                                    <td className="td1">0</td>
+                                </tr>
+                                <tr>
+                                    <td className="td2">
+                                        <img src={Italia}></img>
+                                    </td>
+                                    <td className="td2">0</td>
+                                </tr>
+                                <tr>
+                                    <td className="td1">
+                                        <img src={Brasil}></img>
+                                    </td>
+                                    <td className="td1">0</td>
+                                </tr>
+                            </table>
+                        </article>
+                        <article className="tabela">
+                            <table>
+                                <tr>
+                                    <td className="td0"><strong>Grupo 2</strong></td>
+                                    <td className="td0"><strong>Pontos</strong></td>
+                                </tr>
+                                <tr>
+                                    <td className="td2">
+                                        <img src={RepTcheca}></img>
+                                    </td>
+                                    <td className="td2">0</td>
+                                </tr>
+                                <tr>
+                                    <td className="td1">
+                                        <img src={Inglaterra}></img>
+                                    </td>
+                                    <td className="td1">0</td>
+                                </tr>
+                                <tr>
+                                    <td className="td2">
+                                        <img src={Canada}></img>
+                                    </td>
+                                    <td className="td2">0</td>
+                                </tr>
+                                <tr>
+                                    <td className="td1">
+                                        <img src={Belgica}></img>
+                                    </td>
+                                    <td className="td1">0</td>
+                                </tr>
+                            </table>
+                        </article>
+                    </section>
                     <h1 class="titulosection">SemiFinal</h1>
                 </section>
                 {/* pode colar normal COMEÇO */}
@@ -241,7 +241,7 @@ function Futsal() {
                             </article>
                         </td>
                         <td className="td3">
-                        <article className="SemiFinal2">
+                            <article className="SemiFinal2">
                                 <p>SemiFinal 2</p>
                             </article>
                             <article class="tabelaSemiFinal">
