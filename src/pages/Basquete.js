@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Index";
 import "./pageStyles/Esportes.css";
 import Banner1 from "../assets/banner-basquete.png";
 import Banner1Small from "../assets/banner-basquete-small.png";
-import Banner2 from "../assets/Futsal2.png";
+import Banner2 from "../assets/Basquete2.png";
 import Angola from "../assets/Angola.png";
 import Alemanha from "../assets/Alemanha.png";
 import Belgica from "../assets/Belgica.png";

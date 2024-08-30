@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Index";
 import "./pageStyles/Esportes.css";
 import Banner1 from "../assets/banner-TenisdeMesa.png";
 import Banner1Small from "../assets/banner-TenisdeMesa-Small.png";
-import Banner2 from "../assets/Futsal2.png";
+import Banner2 from "../assets/Tenisdemesa2.png";
 import Angola from "../assets/Angola.png";
 import Alemanha from "../assets/Alemanha.png";
 import Belgica from "../assets/Belgica.png";
