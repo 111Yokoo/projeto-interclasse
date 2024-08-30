@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Index";
 import "./pageStyles/Esportes.css";
 import Banner1 from "../assets/banner-Futsal.png";
 import Banner1Small from "../assets/banner-Futsal-Small.png";
-import Banner2 from "../assets/futsal2.png";
+import Banner2 from "../assets/imagem-futsal.png";
 import Angola from "../assets/Angola.png";
 import Alemanha from "../assets/Alemanha.png";
 import Belgica from "../assets/Belgica.png";
@@ -35,7 +35,7 @@ function Futsal() {
             <div className="line"></div>
             <section>
                 <section className="info1">
-                    {/* <img class="banner2" src={Banner2} /> */}
+                    <img class="banner2" src={Banner2} />
                     <section class="infosBanner">
                         <section>
                             <article className="ProximoJogo1">
