@@ -157,5 +157,8 @@
     .navbar-menu {
         gap: 10px;
     }
+    .header {
+        padding: 10px;
+    }
   }
 
