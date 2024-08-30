@@ -50,7 +50,10 @@ function Home() {
     <div className="home">
       <Header />
       
-      {/* Carrossel Slick */}
+      
+      
+      <main>
+        {/* Carrossel Slick */}
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index}>
@@ -59,7 +62,6 @@ function Home() {
         ))}
       </Slider>
       
-      <main>
         <section className="primeiraSessao">
           <section className="sectionTabela">
             <h2>Destaques da Semana</h2>
