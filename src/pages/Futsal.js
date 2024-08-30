@@ -35,7 +35,7 @@ function Futsal() {
             <div className="line"></div>
             <section>
                 <section className="info1">
-                    <img class="banner2" src={Banner2} />
+                    {/* <img class="banner2" src={Banner2} /> */}
                     <section class="infosBanner">
                         <section>
                             <article className="ProximoJogo1">
