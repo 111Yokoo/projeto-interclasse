@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
 }
-body{
-  overflow-x: hidden;
+body {
+  overflow-x: hidden; /* Oculta a rolagem horizontal em toda a página */
 }
 /**********
 Home*/
@@ -14,8 +14,12 @@ Home*/
 .banner{
   width: 100%;
 }
+.slick-slide img {
+  width: 100%; /* Garante que a imagem ocupe toda a largura do slide */
+  height: auto; /* Mantém a proporção da imagem */
+}
 main{
-  padding: 0px;
+  padding: 20px;
 }
 .sectionTabela{
   display: flex;
@@ -63,5 +67,23 @@ main{
   .banner{
     width: 100%;
     height: auto;
+  }
+}
+@media (max-width: 550px) {
+  .home {
+    overflow-x: hidden; /* Oculta a rolagem horizontal para o container principal */
+  }
+
+  .slider {
+    overflow: hidden; /* Garante que o slider não cause rolagem horizontal */
+  }
+
+  .slide {
+    overflow: hidden; /* Garante que os slides não causem rolagem horizontal */
+  }
+
+  .banner {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do slide */
+    height: auto; /* Mantém a proporção da imagem */
   }
 }

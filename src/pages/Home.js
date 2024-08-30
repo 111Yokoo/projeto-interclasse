@@ -50,7 +50,7 @@ function Home() {
     <div className="home">
       <Header />
       {/* Carrossel Slick */}
-      <Slider {...settings}>
+      <Slider {...settings} >
         {images.map((img, index) => (
           <div key={index}>
             <img className="banner" src={img} alt={`Banner ${index + 1}`} />
