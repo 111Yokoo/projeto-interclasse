@@ -153,3 +153,9 @@
 
    
   }
+  @media (max-width: 390px) {
+    .navbar-menu {
+        gap: 10px;
+    }
+  }
+
