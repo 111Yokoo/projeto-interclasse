@@ -3,7 +3,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Modalidades.css";
 import Slider from "react-slick";
-import { Link } from "react-router-dom";
 import FutsalImage from "../../assets/futsal.jpeg";
 import HandbolImage from "../../assets/handbol.jpeg";
 import VoleiImage from "../../assets/volei.jpeg";
@@ -69,57 +68,57 @@ function Modalidades() {
       <Slider {...carouselSettings}>
         <a href="/futsal">
           <article className="bannerModalidade">
-            <img className="imageFundo" src={FutsalImage} alt="Futsal" />
-            <img className="gifImage" src={FootballPlayer} alt="Futsal Gif" />
+            <img className="imageFundo" src={FutsalImage} alt="Futsal imagem" />
+            <img className="gifImage" src={FootballPlayer} alt="Futsal icon" />
             <h2>Futsal</h2>
           </article>
         </a>
         <a href="/handbol">
           <article className="bannerModalidade">
-            <img className="imageFundo" src={HandbolImage} alt="Futsal" />
-            <img className="gifImage" src={HandballPlayer} alt="Handball" />
+            <img className="imageFundo" src={HandbolImage} alt="Handball imagem" />
+            <img className="gifImage" src={HandballPlayer} alt="Handball icon" />
             <h2>Handbal</h2>
           </article>
         </a>
         <a href="/volei">
           <article className="bannerModalidade">
-            <img className="imageFundo" src={VoleiImage} alt="Futsal" />
-            <img className="gifImage" src={VoleiPlayer} alt="Futsal Gif" />
+            <img className="imageFundo" src={VoleiImage} alt="volei imagem" />
+            <img className="gifImage" src={VoleiPlayer} alt="volei icon" />
             <h2>Vôlei</h2>
           </article>
         </a>
         <a href="/basquete">
           <article className="bannerModalidade">
-            <img className="imageFundo" src={BasqueteImage} alt="Futsal" />
-            <img className="gifImage" src={BasketballPlayer} alt="Futsal Gif" />
+            <img className="imageFundo" src={BasqueteImage} alt="basquete imagem" />
+            <img className="gifImage" src={BasketballPlayer} alt="basquete icon" />
             <h2>Basquete</h2>
           </article>
         </a>
         <a href="/queimada">
           <article className="bannerModalidade">
-            <img className="imageFundo" src={QueimadaImage} alt="Futsal" />
-            <img className="gifImage" src={QueimadaPlayer} alt="Futsal Gif" />
+            <img className="imageFundo" src={QueimadaImage} alt="queimada imagem" />
+            <img className="gifImage" src={QueimadaPlayer} alt="queimada icon" />
             <h2>Queimada</h2>
           </article>
         </a>
         <a href="/tenisdemesa">
           <article className="bannerModalidade">
-            <img className="imageFundo" src={TenisMesaImage} alt="Futsal" />
-            <img className="gifImage" src={TenisMesaPlayer} alt="Futsal Gif" />
+            <img className="imageFundo" src={TenisMesaImage} alt="tenisdemesa imagem" />
+            <img className="gifImage" src={TenisMesaPlayer} alt="tenisdemesa icon" />
             <h2>Tênis de Mesa</h2>
           </article>
         </a>
         <a href="/atletismo">
           <article className="bannerModalidade">
-            <img className="imageFundo" src={AtletismoImage} alt="Futsal" />
-            <img className="gifImage" src={AtletismoPlayer} alt="Futsal Gif" />
+            <img className="imageFundo" src={AtletismoImage} alt="atletismo imagem" />
+            <img className="gifImage" src={AtletismoPlayer} alt="atletismo icon" />
             <h2>Atletismo</h2>
           </article>
         </a>
         <a href="/futmesa">
           <article className="bannerModalidade">
-            <img className="imageFundo" src={FutmesaImage} alt="Futsal" />
-            <img className="gifImage" src={FutMesaPlayer} alt="Futsal Gif" />
+            <img className="imageFundo" src={FutmesaImage} alt="futmesa imagem" />
+            <img className="gifImage" src={FutMesaPlayer} alt="futmesa icon" />
             <h2>FutMesa</h2>
           </article>
         </a>

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div class="footer">
         <p><strong>&copy; 2024 SESI - NexGen</strong></p>
-        <img src={LogoSesi}/>
+        <img src={LogoSesi} alt="logo sesi"/>
     </div>
   );
 }
