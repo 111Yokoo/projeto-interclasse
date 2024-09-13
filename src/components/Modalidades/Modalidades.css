@@ -168,3 +168,16 @@
   font-size: 20px;
 }
 }
+@media (max-width: 400px) {
+.bannerModalidade .gifImage {
+  width: 50px;
+  top: 45%; 
+  right: 40%; 
+}
+}
+@media (max-width: 364px) {
+  .bannerModalidade .gifImage {
+    top: 45%; 
+    right: 45%; 
+  }
+  }

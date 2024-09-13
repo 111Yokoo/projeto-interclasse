@@ -98,7 +98,7 @@ function Sobrenos() {
               <img class="img" src={otavio} />
               <h2>Otávio Cardoso</h2>
             </aside>
-            <div class="texto">Com um olhar atento para [área de interesse ou hobby], [Seu Nome] é também conhecido(a) por [alguma característica pessoal ou realização significativa]. Seus colegas e amigos frequentemente o/la descrevem como [adjetivo positivo], destacando a [qualidade específica, como empatia, criatividade, ou liderança].</div>
+            <div class="texto">Me chamo Otavio, no desenvolvimento desse projeto, minha responsabilidade principal foi projetar a logo, adequando as cores com o tema do nosso projeto fazendo assim o resultado final ser agradável esteticamente, funcional e intuitivo.</div>
           </article>
         </section>
         <section class="titulo">

@@ -31,7 +31,7 @@ function TabelaHome() {
                 <td class="quantity">0</td>{/*Bronze*/}
             </tr>
             <tr class="par">
-                <td><strong>Alemanha 3ºA</strong></td>
+                <td><strong>Alemanha 2ºA</strong></td>
                 <td class="quantity">0</td>{/*Pontuação Geral8*/}
                 <td class="quantity">0</td>{/*Ouro*/}
                 <td class="quantity">0</td>{/*Prata*/}
