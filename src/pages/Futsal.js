@@ -39,18 +39,18 @@ function Futsal() {
                     <section class="infosBanner">
                         <section>
                             <article className="ProximoJogo1">
-                                <h1>Próximo Jogo</h1>
+                                <h1>Destaque Feminino</h1>
                             </article>
                             <article className="ProximoJogo2">
-                                <h1>sss X zzz</h1>
+                                <h1>Eduarda Oliveira 3ºB</h1>
                             </article>
                         </section>
                         <section>
                             <article className="Destaque1">
-                                <h1>Destaque</h1>
+                                <h1>Destaque Masculino</h1>
                             </article>
                             <article className="Destaque2">
-                                <h1>Jogador1</h1>
+                                <h1>Guilherme Suith 3ºB</h1>
                             </article>
                         </section>
                     </section>
@@ -66,25 +66,25 @@ function Futsal() {
                                 </tr>
                                 <tr>
                                     <td className="td2">
-                                        <img src={Angola}></img>
+                                        <img src={RepTcheca}></img>
                                     </td>
-                                    <td className="td2">0</td>
+                                    <td className="td2">9</td>
                                 </tr>
                                 <tr>
                                     <td className="td1">
-                                        <img src={Alemanha}></img>
+                                        <img src={Inglaterra}></img>
                                     </td>
-                                    <td className="td1">0</td>
+                                    <td className="td1">6</td>
                                 </tr>
                                 <tr>
                                     <td className="td2">
-                                        <img src={Italia}></img>
+                                        <img src={Brasil}></img>
                                     </td>
-                                    <td className="td2">0</td>
+                                    <td className="td2">3</td>
                                 </tr>
                                 <tr>
                                     <td className="td1">
-                                        <img src={Brasil}></img>
+                                        <img src={Canada}></img>
                                     </td>
                                     <td className="td1">0</td>
                                 </tr>
@@ -98,27 +98,27 @@ function Futsal() {
                                 </tr>
                                 <tr>
                                     <td className="td2">
-                                        <img src={RepTcheca}></img>
+                                        <img src={Angola}></img>
                                     </td>
-                                    <td className="td2">0</td>
+                                    <td className="td2">7</td>
                                 </tr>
                                 <tr>
                                     <td className="td1">
-                                        <img src={Inglaterra}></img>
+                                        <img src={Alemanha}></img>
                                     </td>
-                                    <td className="td1">0</td>
+                                    <td className="td1">6</td>
                                 </tr>
                                 <tr>
                                     <td className="td2">
-                                        <img src={Canada}></img>
+                                        <img src={Italia}></img>
                                     </td>
-                                    <td className="td2">0</td>
+                                    <td className="td2">2</td>
                                 </tr>
                                 <tr>
                                     <td className="td1">
                                         <img src={Belgica}></img>
                                     </td>
-                                    <td className="td1">0</td>
+                                    <td className="td1">1</td>
                                 </tr>
                             </table>
                         </article>
@@ -132,9 +132,9 @@ function Futsal() {
                                 <p>SemiFinal 1</p>
                             </article>
                             <article class="tabelaSemiFinal">
-                                <h1>1° Colocado grupo 1</h1>
+                                <h1>República Tcheca 3ºB</h1>
                                 <img class="xVermelho" src={XVermelho}></img>
-                                <h1>2° Colocado grupo 2</h1>
+                                <h1>Alemanha 2ºB</h1>
                             </article>
                         </td>
                         <td className="td3">
@@ -142,9 +142,9 @@ function Futsal() {
                                 <p>SemiFinal 2</p>
                             </article>
                             <article class="tabelaSemiFinal">
-                                <h1>1° Colocado grupo 2</h1>
+                                <h1>Inglaterra 2ºA</h1>
                                 <img class="xVermelho" src={XVermelho}></img>
-                                <h1>2° Colocado grupo 1</h1>
+                                <h1>Angola 3ºA</h1>
                             </article>
                         </td>
                     </table>
@@ -171,21 +171,21 @@ function Futsal() {
                                 </tr>
                                 <tr>
                                     <td className="td2">
-                                        <img src={Angola}></img>
+                                        <img src={RepTcheca}></img>
                                     </td>
-                                    <td className="td2">0</td>
+                                    <td className="td2">9</td>
                                 </tr>
                                 <tr>
                                     <td className="td1">
-                                        <img src={Alemanha}></img>
+                                        <img src={Inglaterra}></img>
                                     </td>
-                                    <td className="td1">0</td>
+                                    <td className="td1">4</td>
                                 </tr>
                                 <tr>
                                     <td className="td2">
-                                        <img src={Italia}></img>
+                                        <img src={Canada}></img>
                                     </td>
-                                    <td className="td2">0</td>
+                                    <td className="td2">4</td>
                                 </tr>
                                 <tr>
                                     <td className="td1">
@@ -203,21 +203,21 @@ function Futsal() {
                                 </tr>
                                 <tr>
                                     <td className="td2">
-                                        <img src={RepTcheca}></img>
+                                        <img src={Alemanha}></img>
                                     </td>
-                                    <td className="td2">0</td>
+                                    <td className="td2">9</td>
                                 </tr>
                                 <tr>
                                     <td className="td1">
-                                        <img src={Inglaterra}></img>
+                                        <img src={Angola}></img>
                                     </td>
-                                    <td className="td1">0</td>
+                                    <td className="td1">4</td>
                                 </tr>
                                 <tr>
                                     <td className="td2">
-                                        <img src={Canada}></img>
+                                        <img src={Italia}></img>
                                     </td>
-                                    <td className="td2">0</td>
+                                    <td className="td2">4</td>
                                 </tr>
                                 <tr>
                                     <td className="td1">
@@ -238,9 +238,9 @@ function Futsal() {
                                 <p>SemiFinal 1</p>
                             </article>
                             <article class="tabelaSemiFinal">
-                                <h1>1° Colocado grupo 1</h1>
+                                <h1>República Tcheca 3ºB</h1>
                                 <img class="xVermelho" src={XVermelho}></img>
-                                <h1>2° Colocado grupo 2</h1>
+                                <h1>Angola 3ºA</h1>
                             </article>
                         </td>
                         <td className="td3">
@@ -248,9 +248,9 @@ function Futsal() {
                                 <p>SemiFinal 2</p>
                             </article>
                             <article class="tabelaSemiFinal">
-                                <h1>1° Colocado grupo 2</h1>
+                                <h1>Alemanha 2ºB</h1>
                                 <img class="xVermelho" src={XVermelho}></img>
-                                <h1>2° Colocado grupo 1</h1>
+                                <h1>Inglaterra 2ºA</h1>
                             </article>
                         </td>
                     </table>
