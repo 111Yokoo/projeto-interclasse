@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./DestaquesSemana.css";
 import Masculino from "../../assets/userMasculino.jpeg";
+import Feminino from "../../assets/userFeminino.jpg";
 
 function DestaquesSemana() {
   return (
@@ -10,7 +11,7 @@ function DestaquesSemana() {
             <h2>Guilherme Suith 3ºB</h2>
         </section>
         <section>
-            <img src={Masculino} alt="Destaque Feminino" class="imgDestaque"/>
+            <img src={Feminino} alt="Destaque Feminino" class="imgDestaque"/>
             <h2>Eduarda Oliveira 3ºB</h2>
         </section>
     </section>
