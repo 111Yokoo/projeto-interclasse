@@ -152,9 +152,9 @@ function Futsal() {
                 <section className="Final">
                     <strong><h1  class="titulosection">Final</h1></strong>
                     <article className="td4">
-                        <aside className="finalista"><p>Finalista 1</p></aside>
+                        <aside className="finalista"><p>Alemanha 2ºB</p></aside>
                         <img src={XVermelho}></img>
-                        <aside className="finalista"><p>Finalista 2</p></aside>
+                        <aside className="finalista"><p>Inglaterra 2ºA</p></aside>
                     </article>
 
                 </section>
@@ -258,7 +258,7 @@ function Futsal() {
                 <section className="Final">
                     <strong><h1 class="titulosection">Final</h1></strong>
                     <article className="td4">
-                        <aside className="finalista"><p>Finalista 1</p></aside>
+                        <aside className="finalista"><p>República Tcheca 3ºB</p></aside>
                         <img src={XVermelho}></img>
                         <aside className="finalista"><p>Finalista 2</p></aside>
                     </article>
