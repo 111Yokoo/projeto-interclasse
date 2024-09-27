@@ -39,18 +39,18 @@ function Futsal() {
                     <section class="infosBanner">
                         <section>
                             <article className="ProximoJogo1">
-                                <h1>Destaque Feminino</h1>
+                                <h1>Campeão Feminino</h1>
                             </article>
                             <article className="ProximoJogo2">
-                                <h1>Eduarda Oliveira 3ºB</h1>
+                                <h1>República Tcheca 3ºB</h1>
                             </article>
                         </section>
                         <section>
                             <article className="Destaque1">
-                                <h1>Destaque Masculino</h1>
+                                <h1>Campeão Masculino</h1>
                             </article>
                             <article className="Destaque2">
-                                <h1>Guilherme Suith 3ºB</h1>
+                                <h1>Inglaterra 2ºA</h1>
                             </article>
                         </section>
                     </section>
@@ -260,7 +260,7 @@ function Futsal() {
                     <article className="td4">
                         <aside className="finalista"><p>República Tcheca 3ºB</p></aside>
                         <img src={XVermelho}></img>
-                        <aside className="finalista"><p>Finalista 2</p></aside>
+                        <aside className="finalista"><p>Alemanha 2ºB</p></aside>
                     </article>
 
                 </section>
