@@ -34,20 +34,20 @@ function Futsal() {
             <section className="info1">
                     <img className="banner2" src={Banner2} alt="Banner de Atletismo no meio" />
                     <section className="infosBanner">
-                        <section>
+                    <section>
                             <article className="ProximoJogo1">
-                                <h1>Próximo Jogo</h1>
+                            <h1>Campeão Feminino</h1>
                             </article>
                             <article className="ProximoJogo2">
-                                <h1>sss X zzz</h1>
+                                <h1></h1>
                             </article>
                         </section>
                         <section>
                             <article className="Destaque1">
-                                <h1>Destaque</h1>
+                            <h1>Campeão Masculino</h1>
                             </article>
                             <article className="Destaque2">
-                                <h1>Jogador1</h1>
+                                <h1></h1>
                             </article>
                         </section>
                     </section>
