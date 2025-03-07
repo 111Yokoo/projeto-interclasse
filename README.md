@@ -1,4 +1,4 @@
-# Interclasse School
+# Interclasse Escolar
 
 Este é um projeto Open Source desenvolvido para o evento de interclasse da escola. O site apresenta informações sobre os times, horários dos jogos e resultados das partidas. Desenvolvido utilizando React.
 
