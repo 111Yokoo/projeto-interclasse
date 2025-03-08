@@ -1,6 +1,10 @@
 # Interclasse Escolar
+![image](https://github.com/user-attachments/assets/f2c0535a-5b3f-463b-9483-248a74b1d5e5)
 
 Este é um projeto Open Source desenvolvido para o evento de interclasse da escola. O site apresenta informações sobre os times, horários dos jogos e resultados das partidas. Desenvolvido utilizando React.
+
+![image](https://github.com/user-attachments/assets/ce168692-7046-4a43-bb1e-bf1fc4c14ab7)
+
 
 ## 🚀 Tecnologias
 
